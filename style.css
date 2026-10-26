@@ -620,6 +620,7 @@ summary {
 .contact {
   padding: 48px 0 46px;
   border-top: 2px solid var(--accent);
+  text-align: center;
 }
 
 .contact h2 {
@@ -641,6 +642,52 @@ summary {
   display: inline-block;
   margin-left: 18px;
   font-size: 25px;
+}
+
+/* Small box for the social media links */
+.connect-box {
+  max-width: 480px;
+  margin: 22px auto 0;
+  padding: 20px;
+  background: var(--soft);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.connect-box h3 {
+  margin-bottom: 14px;
+  font-size: 16px;
+}
+
+/* Keep the links together and let them wrap on small screens */
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contact-social {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-social:hover {
+  background: #e7eef3;
+  border-color: var(--accent);
+}
+
+.contact-social-icon {
+  width: 18px;
+  height: 18px;
 }
 
 .contact-location {
