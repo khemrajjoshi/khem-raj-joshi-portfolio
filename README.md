@@ -12,7 +12,7 @@ HTML, CSS and JavaScript.
 - script.js – Mobile menu
 - images – Photos
 
-# Khem Raj Joshi のポートフォリオ
+# ジョシ．ケムラジのポートフォリオ
 
 私の自己紹介サイトです。
 日本語と英語で見ることができます。
